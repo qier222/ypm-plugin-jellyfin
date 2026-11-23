@@ -1,0 +1,35 @@
+{
+  "id": "jellyfin",
+  "name": "Jellyfin",
+  "version": "0.1.0",
+  "author": "YesPlayMusic",
+  "description": "连接 Jellyfin 服务器",
+  "minAppVersion": "3.0.0",
+  "main": "index.js",
+  "icon": "icon.png",
+  "playback": "stream",
+  "permissions": {
+    "network": ["{setting:server}"]
+  },
+  "settings": [
+    {
+      "key": "server",
+      "label": "服务器地址",
+      "help": "Jellyfin 服务器地址，例如 http://127.0.0.1:8096"
+    },
+    { "key": "username", "label": "用户名" },
+    { "key": "password", "label": "密码", "type": "password" },
+    {
+      "key": "apiKey",
+      "label": "API 密钥（可选）",
+      "type": "password",
+      "help": "填写后将跳过账密登录，直接以 API 密钥访问；可在 Jellyfin 控制台 → API 密钥 中创建"
+    },
+    {
+      "key": "libraryId",
+      "label": "音乐库 ID（可选）",
+      "help": "只浏览某一个音乐库时填写，留空则显示全部音乐库"
+    }
+  ],
+  "navigation": [{ "builtin": "home" }, { "builtin": "liked" }, { "builtin": "savedAlbums" }]
+}

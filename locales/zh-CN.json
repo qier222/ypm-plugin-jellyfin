@@ -1,0 +1,16 @@
+{
+  "Fill in the server address and account in the plugin's settings": "请在插件设置里填写服务器地址与账号信息",
+  "Can't reach the server": "连不上服务器",
+  "That address doesn't answer as a Jellyfin server": "这个地址不是 Jellyfin 服务器",
+  "Wrong user name or password": "用户名或密码不对",
+  "Invalid API key": "API 密钥无效",
+  "No users found on this Jellyfin server": "在这个 Jellyfin 服务器上找不到用户",
+  "Recently added": "最近添加",
+  "Recently played": "最近播放",
+  "Most played": "最常播放",
+  "Playlists": "歌单",
+  "Because you listened to {name}": "因为你听了「{name}」",
+  "Artists like {name}": "和 {name} 相似的歌手",
+  "Haven't played in a while": "很久没听",
+  "The {decade}s": "{decade} 年代"
+}
